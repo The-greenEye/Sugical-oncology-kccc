@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Breast Cancer Surgery Workshop</title>
+    <meta name="description" content="Register for the breast cancer surgery workshop">
+    <meta name="keywords" content="registration, workshop sign up, medical training">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #d946b2;
+            --secondary-color: #fdf4ff;
+            --accent-color: #a21caf;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--text-primary);
+        }
+    }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-50 to-pink-50">
+    <div id="root"></div>
+    <script type="text/babel" src="components/SignInForm.js"></script>
+    <script type="text/babel" src="signin-app.js"></script>
+</body>
+</html>

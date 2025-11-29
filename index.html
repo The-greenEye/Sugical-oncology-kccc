@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Cancer Surgery Workshop - Empowering Healthcare Professionals</title>
+    <meta name="description" content="Join our comprehensive breast cancer surgery workshop designed for healthcare professionals">
+    <meta name="keywords" content="breast cancer, surgery workshop, medical training, healthcare">
+    <meta property="og:title" content="Breast Cancer Surgery Workshop">
+    <meta property="og:description" content="Empowering healthcare professionals through advanced surgical training">
+    <meta property="twitter:title" content="Breast Cancer Surgery Workshop">
+    <meta property="twitter:description" content="Empowering healthcare professionals through advanced surgical training">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color:rgba(0, 24, 236, 0.4);
+            --secondary-color: #fdf4ff;
+            --accent-color: rgba(0, 1, 82, 0.6);
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--text-primary);
+        }
+    }
+
+    @layer utilities {
+        .slide-in {
+            animation: slideIn 0.6s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    }
+    </style>
+</head>
+<body class="bg-white">
+    <div id="root"></div>
+    <script type="text/babel" src="components/Navbar.js"></script>
+    <script type="text/babel" src="components/Slideshow.js"></script>
+    <script type="text/babel" src="components/OwnerProfile.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
