@@ -24,7 +24,7 @@ function Navbar() {
             <span className={`text-xl font-bold transition-colors duration-300 ${
               scrolled ? 'text-[var(--primary-color)]' : 'text-white'
             }`}>
-              BC Surgery Workshop
+              <img src="https://up6.cc/2025/10/176442080306431.png" width="70" className="icon-heart text-2xl text-[var(--primary-color)]" alt="logo" />
             </span>
           </div>
           <div className="flex space-x-8">
