@@ -19,7 +19,7 @@ function Footer() {
               Designed with care and compassion
             </p>
             <p className="text-xs text-purple-300">
-              © 2025 Breast Cancer Surgery Workshop. All rights reserved for Ahmed Shehata Nagy.
+              © 2025 Breast Cancer Surgery Workshop. All rights reserved for Ahmed Shehata .
             </p>
           </div>
         </div>
