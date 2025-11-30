@@ -48,26 +48,27 @@ function OwnerProfile() {
   return (
     <section 
       ref={profileRef}
-      className="py-20 px-6 bg-gradient-to-b from-white to-purple-50"
+      className="py-20 px-6 bg-gradient-to-b from-white to-purple-50 mt-4"
       data-name="owner-profile"
       data-file="components/OwnerProfile.js"
     >
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl font-bold text-center mb-3 text-[var(--text-primary)]">
+        <h2 className="text-4xl font-bold text-center mb-3 text-white bg-[#020b27]"> 
           Dr. Khalid Hilal 
         </h2>
           <center>Head of surgical onclogoy department</center>
         <hr />
-        <h2 className="text-4xl font-bold text-center mb-8 text-[var(--text-primary)]">
+        <h2 className="text-4xl font-bold text-center mt-10 mb-4 text-[var(--text-primary)]">
           Organizer 
         </h2>
         <h4 className="text-2xl font-semibold text-center mb-2 text-[var(--text-primary)]">
           Dr. Ashraf Hamed
         </h4>
-        <div className="text-2xl font-semibold text-center mb-5 text-[var(--text-primary)]">
+        <div className="text-2xl font-semibold text-center mb-10 text-[var(--text-primary)]">
           consultant of surgical oncology
         </div>
-        <div className="text-2xl font-semibold text-center mb-5 mt-5" style={{ color: 'red' }}>
+        <hr />
+        <div className="text-2xl font-semibold text-center mb-10 mt-2" style={{ color: 'red', textShadow: '1px 1px 2px black' }}>
           Workshop conductors
         </div>
 
@@ -108,20 +109,12 @@ function OwnerProfile() {
         <div className="mt-8 px-6">
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:justify-between gap-4">
             {marketLogos.map((src, i) => (
-              <a
-                key={i}
-                href={src}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-                aria-label={`Market logo ${i + 1}`}
-              >
+
                 <img
                   src={src}
                   alt={`market-logo-${i + 1}`}
                   className="h-16 md:h-20 object-contain mx-auto"
                 />
-              </a>
             ))}
           </div>
         </div>
