@@ -5,11 +5,20 @@ function SignInForm() {
     whatsapp: '',
     jobTitle: '',
     email: '',
-    image: null
+    image: null,
+    workshopType: '' // added new field
   });
   const [submitted, setSubmitted] = React.useState(false);
   const [submitting, setSubmitting] = React.useState(false);
   const [error, setError] = React.useState(null);
+
+  const eventOptions = [
+    "ورشة عمل اورام الرأس و الرقبة",
+    "ورشة عمل اورام الجهاز الهضمي",
+    "ورشة عمل اورام و تحميل الثدي",
+    "مؤتمر",
+    "أخرى"
+  ];
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -35,6 +44,8 @@ function SignInForm() {
       data.append('whatsapp', formData.whatsapp);
       data.append('jobTitle', formData.jobTitle);
       data.append('email', formData.email);
+      // append new field
+      data.append('workshopType', formData.workshopType || '');
       if (formData.image) {
         data.append('image', formData.image);
       }
@@ -154,6 +165,26 @@ function SignInForm() {
                 placeholder="e.g., Surgeon, Nurse, Medical Student"
                 className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[var(--primary-color)] focus:outline-none transition-colors"
               />
+            </div>
+
+            {/* New select field */}
+            <div>
+              <label className="block text-sm font-semibold text-[var(--text-primary)] mb-2">
+               Type of effectiveness *
+              </label>
+              <select
+                name="workshopType"
+                value={formData.workshopType}
+                onChange={handleInputChange}
+                className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-[var(--primary-color)] focus:outline-none transition-colors"
+              >
+                <option value="">Type of effectiveness</option>
+                {eventOptions.map((opt, idx) => (
+                  <option key={idx} value={opt}>
+                    {opt}
+                  </option>
+                ))}
+              </select>
             </div>
 
             <div>
