@@ -51,7 +51,7 @@ function OwnerProfile() {
             Dr. Ashraf Hamed
           </h4>
             <center className="text-2xl font-semibold text-center mb-5 text-[var(--text-primary)]">consultant of surgical oncology</center>
-            <center className="text-2xl font-semibold text-center mb-5 mt-5 " style="color: red" >Workshop conductors</center>
+            <center className="text-2xl font-semibold text-center mb-5 mt-5" style="color: red">Workshop conductors</center>
           <div className="grid md:grid-cols-2 gap-12">
             {owners.map((owner, index) => (
               <div
