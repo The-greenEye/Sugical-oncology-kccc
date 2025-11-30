@@ -21,13 +21,13 @@ function OwnerProfile() {
 
   const owners = [
     {
-      name: 'Pro. Ayman Agha',
+      name: 'Prof. Ayman Agha',
       title: 'Head of surgical Depart',
       image: 'https://up6.cc/2025/10/176441146505061.jpeg',
       description: 'Bogenhause Hospital Munich Germany.'
     },
     {
-      name: 'Pro. Ahmed Shokry',
+      name: 'Prof. Ahmed Shokry',
       title: 'Cheif consultant',
       image: 'https://up6.cc/2025/10/176441146505462.jpeg',
       description: 'Dr. Surgical Oncology El-Salam Oncology Center Egypt.'
