@@ -44,6 +44,10 @@ function OwnerProfile() {
         data-file="components/OwnerProfile.js"
       >
         <div className="container mx-auto max-w-6xl">
+          <h1 className="text-6xl font-bold text-center mb-8 text-[var(--text-primary)]">
+            Dr. Khalid Hilal 
+          </h1>
+          <hr />
           <h2 className="text-4xl font-bold text-center mb-8 text-[var(--text-primary)]">
             Organizaer 
           </h2>
