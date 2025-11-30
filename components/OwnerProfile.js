@@ -22,7 +22,7 @@ function OwnerProfile() {
   const owners = [
     {
       name: 'Pro. Ayman Agha',
-      title: 'Head of surgical Depart',
+      title: 'Head of surgical Department',
       image: 'https://up6.cc/2025/10/176441146505061.jpeg',
       description: 'Bogenhause Hospital Munich Germany.'
     },
@@ -43,13 +43,14 @@ function OwnerProfile() {
         data-file="components/OwnerProfile.js"
       >
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl font-bold text-center mb-16 text-[var(--text-primary)]">
+          <h2 className="text-4xl font-bold text-center mb-8 text-[var(--text-primary)]">
             Organizaer 
           </h2>
           <h4 className="text-2xl font-semibold text-center mb-2 text-[var(--text-primary)]">
             Dr. Ashraf Hamed
           </h4>
             <center className="text-2xl font-semibold text-center mb-5 text-[var(--text-primary)]">consultant of surgical oncology</center>
+            <center className="text-2xl font-semibold text-center mb-5 text-[red)]">Workshop Conductors</center>
           <div className="grid md:grid-cols-2 gap-12">
             {owners.map((owner, index) => (
               <div
