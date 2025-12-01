@@ -34,13 +34,13 @@ function OwnerProfile() {
     {
       name: 'Prof. Ayman Agha',
       title: 'Head of Surgical Department',
-      image: 'https://up6.cc/2025/10/176441146505061.jpeg',
+      image: 'https://up6.cc/2025/10/176459621677182.jpg',
       description: 'Bogenhause Hospital Munich Germany.'
     },
     {
       name: 'Prof. Ahmed Shokry',
       title: 'Chief Consultant Surgeon',
-      image: 'https://up6.cc/2025/10/176441146505462.jpeg',
+      image: 'https://up6.cc/2025/10/1764596216731.jpg',
       description: 'Surgical oncology department — El-Salam Oncology Center, Egypt'
     }
   ];
