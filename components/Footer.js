@@ -7,7 +7,7 @@ function Footer() {
             <div className="flex justify-center items-center space-x-2 mb-4">
               <div className="icon-heart text-3xl"></div>
             </div>
-            <h3 className="text-2xl font-bold mb-4">للأستفسار او التسجيل</h3>
+            <h3 className="text-2xl font-bold mb-4">للإستفسار أو التسجيل</h3>
             <b>Sayed Salama </b>
             <a href="tel:+96551147478" className="text-lg underline hover:text-pink-300 transition-colors duration-300">51147478</a>
             <img src="https://up6.cc/2025/10/17645854668411.jpeg" alt="Phone Icon" width={'50'} height="50" className="inline-flex ml-2" />
