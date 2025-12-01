@@ -101,9 +101,6 @@ function SignInForm() {
             <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-2">
               Workshop Registration
             </h1>
-            <p className="text-[var(--text-secondary)]">
-              Join us in advancing breast cancer surgical care
-            </p>
           </div>
 
           {/* remove action+method or keep for fallback; JS handles POST */}
