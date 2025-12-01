@@ -41,7 +41,7 @@ function OwnerProfile() {
       name: 'Prof. Ahmed Shokry',
       title: 'Chief Consultant Surgeon',
       image: 'https://up6.cc/2025/10/1764596216731.jpg',
-      description: 'Surgical oncology department — El-Salam Oncology Center, Egypt'
+      description: 'Surgical oncology department El-Salam Oncology Center, Egypt'
     }
   ];
 
