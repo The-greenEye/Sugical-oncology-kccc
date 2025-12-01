@@ -107,7 +107,7 @@ function OwnerProfile() {
 
         {/* Market logos section - responsive: stacked on mobile, spaced on larger screens */}
         <div className="mt-8 px-6">
-          <div className="max-w-6xl mx-auto flex overflow-scroll md:flex-row items-center md:justify-between gap-4">
+          <div className="max-w-6xl mx-auto flex overflow-scroll md:flex-row items-center md:justify-between gap-4" id="Brand_Block">
             {marketLogos.map((src, i) => (
 
                 <img
