@@ -113,6 +113,7 @@ function OwnerProfile() {
                 <img
                   src={src}
                   alt={`market-logo-${i + 1}`}
+                  width="150"
                   className="h-16 md:h-20 object-contain mx-auto"
                 />
             ))}
