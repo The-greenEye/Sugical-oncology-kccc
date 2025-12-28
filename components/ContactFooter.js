@@ -25,7 +25,7 @@ function ContactFooter() {
                     </div>
                     <div className="font-bold text-black text-sm md:text-lg tracking-wide mb-1">SAYED SALAMA</div>
                     {/* Increased mobile size to text-4xl for better visibility */}
-                    <div className="font-black text-black text-4xl sm:text-5xl md:text-6xl animate-pulse-slow tabular-nums leading-tight">51147478</div>
+                    <a href="tel:+96551147478" className="font-black text-black text-4xl sm:text-5xl md:text-6xl animate-pulse-slow tabular-nums leading-tight">51147478</a>
                 </div>
 
                 {/* Right: QR Code */}
