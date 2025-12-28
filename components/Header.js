@@ -28,9 +28,9 @@ function Header() {
                 </label>
 
                 <div className="absolute z-20 right-2 top-full mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-100 overflow-hidden hidden peer-checked:block" role="menu" aria-label="Mobile Navigation">
-                    <a href="#" role="menuitem" className="block px-4 py-3 hover:bg-gray-50">HOME</a>
+                    <a href="index.html" role="menuitem" className="block px-4 py-3 hover:bg-gray-50">HOME</a>
                     <a href="signIn.html" role="menuitem" className="block px-4 py-3 hover:bg-gray-50">SIGN IN</a>
-                    <a href="#" role="menuitem" className="block px-4 py-3 hover:bg-gray-50">ABOUT</a>
+                    <a href="#infoSection" role="menuitem" className="block px-4 py-3 hover:bg-gray-50">ABOUT</a>
                 </div>
             </div>
         </nav>
