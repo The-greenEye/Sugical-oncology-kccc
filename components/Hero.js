@@ -49,9 +49,9 @@ function Hero() {
                                 </h1>
 
                                 <div className="w-full flex justify-center md:justify-start">
-                                    <button className="bg-white text-black px-6 py-2 md:px-12 md:py-3 rounded-full font-bold tracking-wider text-sm md:text-lg shadow-lg hover:shadow-xl transition-all hover:scale-105">
+                                    <a href="signIn.html" className="bg-white text-black px-6 py-2 md:px-12 md:py-3 rounded-full font-bold tracking-wider text-sm md:text-lg shadow-lg hover:shadow-xl transition-all hover:scale-105">
                                         {s.cta}
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
