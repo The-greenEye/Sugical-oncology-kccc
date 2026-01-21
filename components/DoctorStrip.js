@@ -26,7 +26,7 @@ function DoctorStrip() {
                     <div className="icon-user text-white text-4xl md:text-6xl"></div>
                 </div>
                 <div className="flex flex-col justify-center">
-                    <h2 className="text-2xl md:text-4xl font-bold text-black">Dr. Khalid Hilal</h2>
+                    <h2 className="text-2xl md:text-4xl font-bold text-black">Dr. Amal yosef</h2>
                     <p className="text-sm md:text-xl text-gray-800 font-medium mt-1 md:mt-2">Head of surgical oncology department</p>
                 </div>
             </div>
